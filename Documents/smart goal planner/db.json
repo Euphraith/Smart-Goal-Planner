@@ -1,0 +1,14 @@
+{
+  "goals": [
+    {
+      "id": 1,
+      "title": "Finish React project",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title":"working",
+      "completed": true
+    }
+  ]
+}
