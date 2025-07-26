@@ -1,14 +1,24 @@
 {
   "goals": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Finish React project",
       "completed": false
     },
     {
-      "id": 2,
-      "title":"working",
+      "id": "2",
+      "title": "working",
       "completed": true
+    },
+    {
+      "id": "6db1",
+      "title": "milk",
+      "done": false
+    },
+    {
+      "id": "a966",
+      "title": "milk",
+      "done": false
     }
   ]
 }

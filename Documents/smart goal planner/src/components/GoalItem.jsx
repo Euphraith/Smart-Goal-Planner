@@ -1,16 +1,16 @@
-// lists the goal 
-import { useState } from "react";
+import React from "react";
 
-function GoalItem ({goal, onDelete}) {
-    function handleDealete () {
-        onDelete (goal.id)
-    }
-    return (
-        <li>
-            {goal.title}
-            <button onClick={handleDelete(goal.id)}>Delete</button>
-        </li>
-    );
+function GoalItem({ goal, onDelete }) {
+  function handleDelete() {
+    onDelete(goal.id);
+  }
+
+  return (
+    <li>
+      {goal.title}
+      <button onClick={handleDelete}>Delete</button>
+    </li>
+  );
 }
 
 export default GoalItem;
